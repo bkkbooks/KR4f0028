@@ -1,0 +1,122 @@
+canonical_identifier: bkk:krp/KR4f0028/v1
+canonical_location: https://kanripo.org/bkk/KR4f0028/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 抱犢山房集
+  date: '2015-08-25 00:29:15.628707'
+  source:
+    repository: kanripo
+    path: KR4f0028
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4f0028_000.yaml, hash: 'sha256:189ccc6f06183aadcc0046abd9dd25a86c6e51059f6555a88b667fc461d42587'}
+  - {seq: 1, filename: KR4f0028_001.yaml, hash: 'sha256:f78e8879bc94b3a1e747299650ae3b4bc971a75fc75312744979dcc46c5dfebb'}
+  - {seq: 2, filename: KR4f0028_002.yaml, hash: 'sha256:cdc3e56b13ba9ba587e75466709fccb8a1997916a257838a9d4fad96712cd657'}
+  - {seq: 3, filename: KR4f0028_003.yaml, hash: 'sha256:7587b122464890c1ba9def0c811072cfad76ab7dd9fac198de2660752555d535'}
+  - {seq: 4, filename: KR4f0028_004.yaml, hash: 'sha256:e57805e0485cab1a696b62afd48d7005d37b5e8796c921e4ed429c32cbad33d3'}
+  - {seq: 5, filename: KR4f0028_005.yaml, hash: 'sha256:397000c1fdf23a469038932199dd12f384b7f82f7216f43860cee164379ae5e6'}
+  - {seq: 6, filename: KR4f0028_006.yaml, hash: 'sha256:f3962b2728a3d4f0e346519309c47659447ce99f3d249936e61acd6e62b7c007'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4f0028_000.markers.yaml, hash: 'sha256:33f162492534057423815c433b48314f2128e25998467b72fe47aeec231e3ac2'}
+  - {seq: 1, role: markers, filename: assets/KR4f0028_001.markers.yaml, hash: 'sha256:c99442c15b24dac4f1d396101235b687dd460509b9e8b40bcb7d004fd5a7397d'}
+  - {seq: 2, role: markers, filename: assets/KR4f0028_002.markers.yaml, hash: 'sha256:d846f3340d8ba593aa33fc95279933f5b3c77f7d5835e969575b8eb37c23910d'}
+  - {seq: 3, role: markers, filename: assets/KR4f0028_003.markers.yaml, hash: 'sha256:beb01d789b87aa7c2ea2093c2fd72919adb443649fe14cf1bddcd2ca2f3400e4'}
+  - {seq: 4, role: markers, filename: assets/KR4f0028_004.markers.yaml, hash: 'sha256:6b673fe264c3f83595927c187f5f63e9159e1566247890a8f2e195e304756fbe'}
+  - {seq: 5, role: markers, filename: assets/KR4f0028_005.markers.yaml, hash: 'sha256:066b3576ac36c8b912db87350e36e740c56805bbccc633adcfbc60aa5f0cb3c3'}
+  - {seq: 6, role: markers, filename: assets/KR4f0028_006.markers.yaml, hash: 'sha256:82400716b36d2f0bffc0d5c6bfcee5939daf7591d8e5087dab892ef68f5c458d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4f0028_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 306
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4f0028_WYG_000-3a
+    span:
+    - body
+    - 306
+    - 1553
+  label: 嵇留山先生傳
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4f0028_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 8416
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4f0028_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 3885
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4f0028_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 2468
+  label: 卷三
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR4f0028_WYG_004-1a
+    span:
+    - body
+    - 0
+    - 3541
+  label: 卷四
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR4f0028_WYG_005-1a
+    span:
+    - body
+    - 0
+    - 6075
+  label: 卷五
+  type: section
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR4f0028_WYG_006-1a
+    span:
+    - body
+    - 0
+    - 7441
+  label: 卷六
+  type: section
+  level: 1
+hash: sha256:8d464a37173d011b5a798d18007546e555e7b1d969ea901b0e54bbc4d86d319d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
